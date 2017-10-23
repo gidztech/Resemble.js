@@ -26,12 +26,11 @@
     "test-watch": "jest --watch ./nodejs-tests"
   },
   "devDependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1",
     "chai": "^3.4.1",
+    "color-convert": "^1.9.0",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4"
-  },
-  "peerDependencies": {
-    "canvas": "^1.6.5"
   },
   "jest": {
     "testEnvironment": "node"
